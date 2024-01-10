@@ -1,24 +1,29 @@
 .form {
   display: grid;
   grid-template-columns: 1fr auto;
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-vermelho);
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
 }
 
 .btnPesquisar {
-  background-color: var(--cor-principal);
-  border: 1px solid var(--cor-principal);
+  background-color: var(--cor-branco);
+  border: 1px solid var(--cor-branco);
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
-  color: var(--cor-secundaria);
+  color: var(--cor-vermelho);
   margin-left: 8px;
   cursor: pointer;
+
+  &:hover {
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branco);
+  }
 }
 
 .campo {
   padding: 0 16px;
-  outline-color: var(--cor-principal);
+  outline-color: var(--cor-vermelho);
 }

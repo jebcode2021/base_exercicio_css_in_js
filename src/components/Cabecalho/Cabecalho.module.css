@@ -1,6 +1,6 @@
 .cabecalho {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
+  background-color: var(--cor-vermelho);
+  color: var(--cor-secundaria);
   text-align: center;
   padding: 24px 0;
 }

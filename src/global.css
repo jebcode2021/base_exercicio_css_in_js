@@ -1,6 +1,9 @@
 :root {
   --cor-principal: #a7727d;
   --cor-secundaria: #f9f5e7;
+  --cor-vermelho: #860813;
+  --cor-preto: #000;
+  --cor-branco: #fff;
 }
 
 * {
@@ -13,6 +16,18 @@
 
 body {
   padding-bottom: 120px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--cor-branco);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor-vermelho);
 }
 
 .container {

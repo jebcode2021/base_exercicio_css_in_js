@@ -18,7 +18,7 @@ const FormVagas = ({ aoPesquisar }: Props) => {
     <form className={styles.form} onSubmit={aoEnviarForm}>
       <input
         className={styles.campo}
-        placeholder="Front-end, fullstack, node, design"
+        placeholder="Pesquisar vagas"
         onChange={(e) => setTermo(e.target.value)}
         type="search"
       />
