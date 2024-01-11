@@ -1,13 +1,15 @@
-.form {
+import styled from 'styled-components'
+
+export const Formulario = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: var(--cor-vermelho);
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
-}
+`
 
-.btnPesquisar {
+export const Botao = styled.button`
   background-color: var(--cor-branco);
   border: 1px solid var(--cor-branco);
   height: 40px;
@@ -21,9 +23,9 @@
     background-color: var(--cor-vermelho);
     color: var(--cor-branco);
   }
-}
+`
 
-.campo {
+export const Campo = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-vermelho);
-}
+`
